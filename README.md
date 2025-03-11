@@ -10,11 +10,13 @@ This Python script attempts to recover a password by brute-forcing a given PBKDF
 1. Modify the script to set your desired `salt` and `target_hash`.
 2. Ensure you have a valid dictionary file (wordlist) and update `dictionary_file` in the script.
 3. Run the script:
+   
    ```sh
    python script.py
    ```
 
 ## Example
+
 ```python
 salt = binascii.unhexlify('8bf3e3452b78544f8bee9400d6936d34')
 target_hash = 'e531d398946137baea70ed6a680a54385ecff131309c0bd8f225f284406b7cbc8efc5dbef30bf1682619263444ea594cfb56'
